@@ -11,3 +11,107 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+header {
+  border-bottom: 1px solid #CD201F;
+  width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px 0;
+}
+
+.myTubeIcon {
+  width: 120px;
+}
+
+
+main {
+  width: 1000px;
+  padding-bottom: 80px;
+  margin: 0 auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+.add-vid {
+  font-family: Arial;
+  color: #000;
+  font-weight: 600;
+  text-align: center;
+  padding: 0;
+  margin: 10px 0;
+}
+.blockFlex {
+  display: flex;
+
+}
+.blockInput {
+  margin-right: 10px;
+}
+.blockInput input{
+  display: block;
+  width: 253px;
+  height: 20px;
+  color: #8a8a8a;
+  font-weight: 600;
+  padding: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 5px;
+  border: 1px solid #CCCCCC;
+  outline: none;
+}
+.bottomInput {
+  margin-top: 10px;
+}
+.buttonAdd {
+  background-color: #CD201F;
+  border-radius: 5px;
+  font-size: 16px;
+  color: #fff;
+  outline: none;
+  cursor: pointer;
+  padding: 0 20px;
+  transition: all .2s ease-in;
+}
+.buttonAdd:hover {
+  background-color: #fff;
+  color: #CD201F;
+}
+.videos-post {
+  margin: 15px;
+  width: 800px;
+  margin: 0 auto;
+}
+.video {
+  width: 800px;
+  height: 400px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 83 0px;
+}
+
+.common {
+  width: 253px;
+  overflow: auto;
+}
+
+.subcomment {
+  margin-left: 20px;
+}
+
+.red {
+  color: red;
+}
+
+button {
+  border-radius: 5px;
+}
+
+input {
+  border-radius: 500px;
+}
